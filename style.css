@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 64px;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin: 0;
+}
+h2{
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 0;
+}
+h3{
+    font-size: 36px;
+    line-height: 1.3em;
+    font-weight: 400;
+    margin: 0;
+}
+h4{
+    font-size: 28px;
+    line-height: 1.3em;
+    font-weight: 400;
+    margin: 0;
+}
+h5{
+    font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 400;
+    margin: 0;
+}
+h6{
+    font-size: 20px;
+    line-height: 1.6em;
+    font-weight: 400;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    line-height: 1.8em;
+    font-weight: 300;
+}
+body{
+    margin: auto;
+}
+section{
+    padding: 75px 35px;
+}
+.flexible-container-row{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flexible-container-column{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.centered-text{
+    text-align: center;
+}
+.seventy-percent-width{
+    width: 70%;
+}
+.sixty-percent-width{
+    width: 60%;
+}
+.half-width{
+    width: 50%;
+}
+.dark-color-text{
+    color: #121212;
+}
+.light-color-text{
+    color: #FFFFFF;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.hero-section{
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)),url(images/hero-section-background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
