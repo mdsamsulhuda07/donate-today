@@ -26,6 +26,7 @@ h4{
     margin: 0;
 }
 h5{
+    font-family: 'Lobster', cursive;
     font-size: 24px;
     line-height: 1.4em;
     font-weight: 400;
@@ -90,7 +91,6 @@ section{
     border: none;
 }
 .hero-section{
-    flex-direction: column;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)),url(images/hero-section-background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,6 +180,7 @@ section{
     font-size:18px;
     text-align: left;
     padding: 13px 15px 15px 15px;
+    width: 50%;
 }
 .subscribe-button{
     font-family: 'Poppins', sans-serif;
@@ -191,4 +192,31 @@ section{
     font-weight: 600;
     border: none;
     margin-left: -5px;
+}
+.selection-section{
+    padding: 0;
+}
+.donate{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.95)),url(images/donate.jpg);
+    min-height: 400px;
+    padding: 125px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.join{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.95)),url(images/volunteer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    padding: 125px; 
+}
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+footer h5{
+    color: #FF5959;
+    font-size: 36px;
 }
